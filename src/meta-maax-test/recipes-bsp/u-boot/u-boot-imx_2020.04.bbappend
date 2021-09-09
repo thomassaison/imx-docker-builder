@@ -1,0 +1,7 @@
+UBOOT_SRC = "${MAAXBOARD_GIT_HOST_MIRROR}/uboot-imx.git;protocol=ssh"
+SRCBRANCH = "maaxboard_v2020.04_5.4.24_2.1.0"
+SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH} \
+"
+
+SRCREV = "8e694f7d407b0984490f4361620c772172759e28"
+
